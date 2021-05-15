@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:netflix_clone/src/WelcomePage.dart';
+import 'package:netflix_clone/src/pages/Welcome_Page.dart';
 
 void main() => runApp(MyApp());
 
