@@ -17,14 +17,14 @@ class Usuarios {
 
   Usuarios.getUsuarios() {
     items.add(Usuario(
-        nombre: 'Marco', picture: 'assets/img/marco.png', urlhome: '/'));
+        nombre: 'Marco', picture: 'assets/img/marco.png', urlhome: 'home'));
     items.add(Usuario(
-        nombre: 'Enrique', picture: 'assets/img/enrique.png', urlhome: '/'));
+        nombre: 'Enrique', picture: 'assets/img/enrique.png', urlhome: 'home'));
     items.add(Usuario(
-        nombre: 'Niños', picture: 'assets/img/ninos.png', urlhome: '/'));
+        nombre: 'Niños', picture: 'assets/img/ninos.png', urlhome: 'home'));
     items.add(Usuario(
-        nombre: 'Maura', picture: 'assets/img/maura.png', urlhome: '/'));
+        nombre: 'Maura', picture: 'assets/img/maura.png', urlhome: 'home'));
     items.add(Usuario(
-        nombre: 'Adita', picture: 'assets/img/adita.png', urlhome: '/'));
+        nombre: 'Adita', picture: 'assets/img/adita.png', urlhome: 'home'));
   }
 }

@@ -29,111 +29,11 @@ class WelcomePage extends StatelessWidget {
                 height: 40,
               ),
               Text('¿Quién está viendo ahora?',
-                  style: TextStyle(color: Colors.white, fontSize: 20)),
+                  style: TextStyle(color: Colors.white, fontSize: 18)),
               SizedBox(
                 height: 30,
               ),
-              UsuarioWidget(),
-              // Row(
-              //   mainAxisAlignment: MainAxisAlignment.center,
-              //   children: [
-              //     Column(
-              //       children: [
-              //         ClipRRect(
-              //             borderRadius: BorderRadius.all(Radius.circular(5.0)),
-              //             child: InkWell(child: Image.asset('assets/img/marco.png'),
-              //             onTap: (){return print("marco");},
-              //             ),
-                          
-              //             ),
-              //         SizedBox(
-              //           height: 10,
-              //         ),
-              //         Text('Marco', style: TextStyle(color: Colors.white)),
-              //       ],
-              //     ),
-              //     SizedBox(
-              //       width: 30,
-              //     ),
-              //     Column(
-              //       children: [
-              //         ClipRRect(
-              //             borderRadius: BorderRadius.all(Radius.circular(5.0)),
-              //             child: Image.asset('assets/img/enrique.png')),
-              //         SizedBox(
-              //           height: 10,
-              //         ),
-              //         Text('Enrique', style: TextStyle(color: Colors.white)),
-              //       ],
-              //     ),
-              //   ],
-              // ),
-              // SizedBox(
-              //   height: 30,
-              // ),
-              // Row(
-              //   mainAxisAlignment: MainAxisAlignment.center,
-              //   children: [
-              //     Column(
-              //       children: [
-              //         ClipRRect(
-              //             borderRadius: BorderRadius.all(Radius.circular(5.0)),
-              //             child: Image.asset('assets/img/ninos.png')),
-              //         SizedBox(
-              //           height: 10,
-              //         ),
-              //         Text('Niños', style: TextStyle(color: Colors.white)),
-              //       ],
-              //     ),
-              //     SizedBox(
-              //       width: 30,
-              //     ),
-              //     Column(
-              //       children: [
-              //         ClipRRect(
-              //             borderRadius: BorderRadius.all(Radius.circular(5.0)),
-              //             child: Image.asset('assets/img/maura.png')),
-              //         SizedBox(
-              //           height: 10,
-              //         ),
-              //         Text('Maura', style: TextStyle(color: Colors.white)),
-              //       ],
-              //     ),
-              //   ],
-              // ),
-              // SizedBox(
-              //   height: 30,
-              // ),
-              // Row(
-              //   mainAxisAlignment: MainAxisAlignment.center,
-              //   children: [
-              //     Column(
-              //       children: [
-              //         ClipRRect(
-              //             borderRadius: BorderRadius.all(Radius.circular(5.0)),
-              //             child: Image.asset('assets/img/adita.png')),
-              //         SizedBox(
-              //           height: 10,
-              //         ),
-              //         Text('Adita', style: TextStyle(color: Colors.white)),
-              //       ],
-              //     ),
-              //     SizedBox(
-              //       width: 30,
-              //     ),
-              //     Column(
-              //       children: [
-              //         ClipRRect(
-              //             borderRadius: BorderRadius.all(Radius.circular(5.0)),
-              //             child: Image.asset('assets/img/adita.png')),
-              //         SizedBox(
-              //           height: 10,
-              //         ),
-              //         Text('', style: TextStyle(color: Colors.white)),
-              //       ],
-              //     ),
-              //   ],
-              // ),
+              UsuarioWidget(),              
             ],
           ),
         ));

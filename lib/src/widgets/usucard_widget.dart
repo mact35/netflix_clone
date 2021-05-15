@@ -13,17 +13,17 @@ class UsuCard extends StatelessWidget {
         children: [
           ClipRRect(
             borderRadius: BorderRadius.all(Radius.circular(8.0)),
-            child: InkWell(
-              child: Image.asset(usuario.picture),
+            child: GestureDetector(
+              child: Image.asset(usuario==null?'assets/img/no-user.png':usuario.picture, width: 100, height: 100,),
               onTap: () {
-                //TODO Realizar el Ontap hacia la pagina principal
+                Navigator.pushNamed(context, usuario.urlhome);
               },
             ),
           ),
           SizedBox(
             height: 10,
           ),
-          Text(usuario.nombre, style: TextStyle(color: Colors.white)),
+          Text(usuario==null?'':usuario.nombre, style: TextStyle(color: Colors.white)),
         ],
       ),
     );
